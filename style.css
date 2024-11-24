@@ -1,0 +1,115 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2a8f7a;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero {
+    background-color: rgb(179, 227, 192);
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.hero p {
+    color: rgb(97, 93, 93);
+    padding: 0 150px;
+
+}
+
+.produtos-lista {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.produto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #2a8f7a;
+}
+
+.produto p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.produto button {
+    background-color: #2a8f7a;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.produto button:hover {
+    background-color: #238c68;
+}
+
+footer {
+    background-color: #2a8f7a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
